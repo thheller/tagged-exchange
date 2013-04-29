@@ -1,0 +1,10 @@
+{application, tagged_exchange,
+ [
+  {description, "RabbitMQ Header Exchange Plugin"},
+  {vsn, "0.1.0"},
+  {modules, []},
+  {registered, []},
+  {env, []},
+  {applications, [kernel, stdlib, rabbit, mnesia]}
+ ]
+}.
